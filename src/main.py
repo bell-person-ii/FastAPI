@@ -24,4 +24,4 @@ def createAttendance(request : AttendanceRequest, session: Session = Depends(get
     attendance = create_Attendance(session= session, attendance = attendance)
     return AttendanceSchema.from_orm(attendance)
 
-#우와 새해다~
+#우와 새해다~!!
